@@ -1,0 +1,94 @@
+/* Generated from palette.toml by tools/siyuan-theme-builder.mjs. */
+:root {
+  color-scheme: dark;
+  /* Hex fallback for older SiYuan/Electron renderers. */
+  --apt-qbasic-structural-dark-01: #010102;
+  --apt-qbasic-structural-dark-02: #091222;
+  --apt-qbasic-structural-dark-03: #040915;
+  --apt-qbasic-structural-dark-04: #060C1B;
+  --apt-qbasic-structural-mid-01: #526EAB;
+  --apt-qbasic-structural-mid-02: #163677;
+  --apt-qbasic-structural-mid-03: #33528C;
+  --apt-qbasic-structural-mid-04: #001766;
+  --apt-qbasic-text-light-01: #FDFDFC;
+  --apt-qbasic-text-light-02: #B3ACAF;
+  --apt-qbasic-text-light-03: #F7EBD1;
+  --apt-qbasic-text-light-04: #C7F8FC;
+  --apt-qbasic-text-light-05: #FCF7E7;
+  --apt-qbasic-accent-01: #CD5DE6;
+  --apt-qbasic-accent-02: #0A92EE;
+  --apt-qbasic-accent-03: #054CCD;
+  --apt-qbasic-accent-04: #0433AE;
+  --apt-qbasic-accent-05: #0672CC;
+  --apt-qbasic-accent-strong-01: #B12ED9;
+  --apt-qbasic-accent-strong-02: #6632CB;
+  --apt-qbasic-accent-strong-03: #022896;
+  --apt-qbasic-accent-strong-04: #2266E0;
+  --apt-qbasic-neutral-01: #8F8B91;
+  --apt-qbasic-neutral-02: #504C4E;
+  --apt-qbasic-neutral-03: #706B71;
+  --apt-qbasic-neutral-04: #D7C6AF;
+  --apt-qbasic-data-01: #00042B;
+  --apt-qbasic-data-02: #4FADF8;
+  --apt-qbasic-data-03: #0A6CB0;
+  --apt-qbasic-data-04: #000A3B;
+  --apt-qbasic-data-05: #024797;
+  --apt-qbasic-data-06: #6C8DC9;
+  /* Semantic role aliases: change palette.toml roles, not this file. */
+  --apt-app: var(--apt-qbasic-structural-dark-02); --apt-panel: var(--apt-qbasic-structural-dark-01); --apt-editor: var(--apt-qbasic-structural-dark-04); --apt-raised: var(--apt-qbasic-structural-mid-04);
+  --apt-border: var(--apt-qbasic-neutral-03); --apt-border-strong: var(--apt-qbasic-structural-mid-03); --apt-text: var(--apt-qbasic-text-light-01); --apt-text-soft: var(--apt-qbasic-text-light-02); --apt-text-muted: var(--apt-qbasic-neutral-01); --apt-link: var(--apt-qbasic-text-light-03); --apt-warm: var(--apt-qbasic-text-light-04);
+  --apt-primary: var(--apt-qbasic-accent-05); --apt-secondary: var(--apt-qbasic-accent-01); --apt-success: var(--apt-qbasic-accent-03); --apt-warning: var(--apt-qbasic-accent-02); --apt-highlight: var(--apt-qbasic-data-03); --apt-error: var(--apt-qbasic-accent-01); --apt-scrollbar: var(--apt-qbasic-data-02); --apt-scroll-track: color-mix(in srgb, var(--apt-scrollbar) 13%, var(--apt-editor));
+  /* SiYuan contract: shell, editor, popovers, states, tables, syntax, graph. */
+  --b3-theme-primary: var(--apt-primary); --b3-theme-primary-light: color-mix(in srgb, var(--apt-primary) 34%, transparent); --b3-theme-primary-lighter: color-mix(in srgb, var(--apt-primary) 20%, transparent); --b3-theme-primary-lightest: color-mix(in srgb, var(--apt-primary) 11%, transparent); --b3-theme-secondary: var(--apt-secondary);
+  --b3-theme-background: var(--apt-editor); --b3-theme-background-light: color-mix(in srgb, var(--apt-text) 6%, transparent); --b3-theme-surface: var(--apt-raised); --b3-theme-surface-light: color-mix(in srgb, var(--apt-raised) 92%, var(--apt-editor)); --b3-theme-surface-lighter: color-mix(in srgb, var(--apt-text-soft) 12%, transparent);
+  --b3-theme-error: var(--apt-error); --b3-theme-success: var(--apt-success); --b3-theme-on-primary: var(--apt-app); --b3-theme-on-secondary: var(--apt-app); --b3-theme-on-background: var(--apt-text); --b3-theme-on-surface: var(--apt-text-muted); --b3-theme-on-surface-light: var(--apt-text-soft); --b3-theme-on-surface-lighter: var(--apt-text-muted);
+  --b3-body-background: var(--apt-app); --b3-border-color: color-mix(in srgb, var(--apt-border) 62%, transparent); --b3-menu-background: var(--apt-panel); --b3-tooltips-background: var(--apt-app); --b3-tooltips-color: var(--apt-text); --b3-empty-color: var(--apt-text-muted); --b3-mask-background: color-mix(in srgb, var(--apt-app) 78%, transparent); --b3-font-color: var(--apt-text); --b3-toolbar-color: var(--apt-text-soft); --b3-toolbar-hover: color-mix(in srgb, var(--apt-primary) 14%, transparent); --b3-list-hover: color-mix(in srgb, var(--apt-primary) 12%, transparent); --b3-scroll-color: var(--apt-scrollbar);
+  --b3-protyle-code-background: color-mix(in srgb, var(--apt-secondary) 12%, transparent); --b3-protyle-inline-link-color: var(--apt-link); --b3-protyle-inline-mark-background: color-mix(in srgb, var(--apt-highlight) 24%, transparent); --b3-protyle-inline-mark-color: var(--apt-text); --b3-highlight-color: var(--apt-text); --b3-highlight-background: color-mix(in srgb, var(--apt-highlight) 28%, var(--apt-app)); --b3-highlight-current-background: color-mix(in srgb, var(--apt-warning) 38%, var(--apt-app));
+  --b3-switch-background: var(--apt-raised); --b3-switch-border: var(--apt-border); --b3-switch-checked: var(--apt-primary); --b3-switch-checked-background: color-mix(in srgb, var(--apt-primary) 36%, var(--apt-panel)); --b3-table-even-background: color-mix(in srgb, var(--apt-text) 4%, transparent); --b3-bq-background: color-mix(in srgb, var(--apt-primary) 8%, transparent);
+  --b3-card-error-color: var(--apt-text); --b3-card-error-background: color-mix(in srgb, var(--apt-error) 26%, var(--apt-app)); --b3-card-warning-color: var(--apt-warm); --b3-card-warning-background: color-mix(in srgb, var(--apt-warning) 25%, var(--apt-app)); --b3-card-info-color: var(--apt-link); --b3-card-info-background: color-mix(in srgb, var(--apt-primary) 22%, var(--apt-app)); --b3-card-success-color: var(--apt-text); --b3-card-success-background: color-mix(in srgb, var(--apt-success) 23%, var(--apt-app));
+  --b3-callout-note: var(--apt-primary); --b3-callout-tip: var(--apt-success); --b3-callout-caution: var(--apt-error); --b3-callout-important: var(--apt-secondary); --b3-callout-warning: var(--apt-warning); --b3-graph-p-point: var(--apt-qbasic-text-light-03); --b3-graph-heading-point: var(--apt-qbasic-accent-01); --b3-graph-code-point: var(--apt-qbasic-data-03); --b3-graph-table-point: var(--apt-qbasic-data-05); --b3-graph-list-point: var(--apt-secondary); --b3-graph-todo-point: var(--apt-warning); --b3-graph-doc-point: var(--apt-text); --b3-graph-line: color-mix(in srgb, var(--apt-text-soft) 46%, transparent);
+}
+/* SiYuan 3.8.4 uses Chromium; retain hex above if a future/older renderer does not parse OKLCH. */
+@supports (color: oklch(50% 0.1 240)) { :root {
+    --apt-qbasic-structural-dark-01: oklch(6.924% 0.00800 284.115);
+    --apt-qbasic-structural-dark-02: oklch(18.297% 0.03575 261.190);
+    --apt-qbasic-structural-dark-03: oklch(14.072% 0.02856 261.630);
+    --apt-qbasic-structural-dark-04: oklch(15.713% 0.03377 264.847);
+    --apt-qbasic-structural-mid-01: oklch(54.405% 0.10140 264.555);
+    --apt-qbasic-structural-mid-02: oklch(35.080% 0.11786 262.374);
+    --apt-qbasic-structural-mid-03: oklch(44.443% 0.10253 261.862);
+    --apt-qbasic-structural-mid-04: oklch(26.140% 0.13934 263.496);
+    --apt-qbasic-text-light-01: oklch(99.377% 0.00132 106.423);
+    --apt-qbasic-text-light-02: oklch(75.113% 0.00902 349.332);
+    --apt-qbasic-text-light-03: oklch(94.278% 0.03660 86.174);
+    --apt-qbasic-text-light-04: oklch(94.652% 0.05013 202.503);
+    --apt-qbasic-text-light-05: oklch(97.571% 0.02171 92.503);
+    --apt-qbasic-accent-01: oklch(66.968% 0.21746 319.947);
+    --apt-qbasic-accent-02: oklch(64.365% 0.16999 247.787);
+    --apt-qbasic-accent-03: oklch(47.007% 0.20900 261.851);
+    --apt-qbasic-accent-04: oklch(39.366% 0.19908 263.530);
+    --apt-qbasic-accent-05: oklch(54.924% 0.16262 252.127);
+    --apt-qbasic-accent-strong-01: oklch(57.929% 0.24983 316.551);
+    --apt-qbasic-accent-strong-02: oklch(48.035% 0.21769 291.436);
+    --apt-qbasic-accent-strong-03: oklch(34.808% 0.18163 263.671);
+    --apt-qbasic-accent-strong-04: oklch(54.241% 0.19827 261.103);
+    --apt-qbasic-neutral-01: oklch(64.209% 0.00995 314.751);
+    --apt-qbasic-neutral-02: oklch(42.108% 0.00618 345.524);
+    --apt-qbasic-neutral-03: oklch(53.431% 0.01105 320.563);
+    --apt-qbasic-neutral-04: oklch(83.451% 0.03660 75.494);
+    --apt-qbasic-data-01: oklch(14.460% 0.08121 263.843);
+    --apt-qbasic-data-02: oklch(72.360% 0.14092 245.656);
+    --apt-qbasic-data-03: oklch(51.726% 0.13360 247.393);
+    --apt-qbasic-data-04: oklch(18.190% 0.09529 263.356);
+    --apt-qbasic-data-05: oklch(41.162% 0.14494 257.112);
+    --apt-qbasic-data-06: oklch(64.328% 0.09801 261.884);
+} }
+html, body { background: var(--apt-app); color: var(--apt-text); } body { background-image: linear-gradient(180deg, var(--apt-app), var(--apt-editor)); }
+.toolbar, .status, .dock, .layout__dockl, .layout__dockr, .layout__dockb, .b3-menu, .b3-dialog__container { background: var(--apt-panel); border-color: var(--apt-border); color: var(--apt-text-soft); }
+.dock__item--active, .dock__item:hover, .toolbar__item:not(.toolbar__item--disabled):hover { background: var(--b3-list-hover); color: var(--apt-primary); }
+.protyle, .protyle-content, .protyle-wysiwyg { background: var(--apt-editor); color: var(--apt-text); } .protyle-wysiwyg table tr:nth-child(even) { background: var(--b3-table-even-background); } .protyle-wysiwyg code, .protyle-wysiwyg pre { background: var(--b3-protyle-code-background); } .protyle-wysiwyg a { color: var(--apt-link); }
+/* SiYuan's stock thumb uses a transparent 4px border plus inset shadow, which
+   reduces a bright scrollbar to a hairline. Keep a visible rail and full thumb. */
+::-webkit-scrollbar { width: 14px; height: 14px; } ::-webkit-scrollbar-track { background: var(--apt-scroll-track); border-left: 1px solid color-mix(in srgb, var(--apt-scrollbar) 42%, var(--apt-editor)); } ::-webkit-scrollbar-thumb { box-sizing: border-box; background: var(--apt-scrollbar); border: 2px solid var(--apt-scroll-track); border-radius: 999px; box-shadow: none; } ::-webkit-scrollbar-thumb:hover { background: var(--apt-primary); border-color: var(--apt-editor); }
+.protyle-scroll { width: 18px; right: 8px; background: var(--apt-scroll-track); border-left: 1px solid color-mix(in srgb, var(--apt-scrollbar) 42%, var(--apt-editor)); } .protyle-scroll__bar .b3-slider::-webkit-slider-runnable-track { background-color: var(--apt-scroll-track); box-shadow: inset 0 0 0 1px var(--apt-scrollbar); } .protyle-scroll__bar .b3-slider::-webkit-slider-thumb { background-color: var(--apt-scrollbar); box-shadow: 0 0 0 2px var(--apt-scroll-track); }
+.hljs-keyword, .hljs-selector-tag { color: var(--apt-qbasic-accent-01); } .hljs-type, .hljs-built_in { color: var(--apt-qbasic-data-03); } .hljs-title, .hljs-function { color: var(--apt-qbasic-text-light-03); } .hljs-string { color: var(--apt-qbasic-text-light-04); } .hljs-number, .hljs-literal { color: var(--apt-qbasic-data-05); } .hljs-comment { color: var(--apt-qbasic-neutral-02); } .hljs-attr, .hljs-symbol { color: var(--apt-qbasic-data-06); } .hljs-operator { color: var(--apt-qbasic-text-light-02); } .hljs-error { color: var(--apt-error); }

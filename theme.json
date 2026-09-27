@@ -1,0 +1,30 @@
+{
+  "name": "aptlantis-qbasic",
+  "author": "Aptlantis",
+  "url": "https://aptlantis.studio",
+  "version": "0.1.0",
+  "minAppVersion": "3.7.0",
+  "displayName": {
+    "default": "Aptlantis QBasic"
+  },
+  "description": {
+    "default": "A dark SiYuan theme derived from the Aptlantis QBasic palette."
+  },
+  "readme": {
+    "default": "README.md",
+    "zh-CN": "README.zh-CN.md"
+  },
+  "icon": "icon.png",
+  "preview": "preview.png",
+  "modes": [
+    "dark"
+  ],
+  "frontends": [
+    "all"
+  ],
+  "keywords": [
+    "aptlantis",
+    "qbasic",
+    "dark"
+  ]
+}
